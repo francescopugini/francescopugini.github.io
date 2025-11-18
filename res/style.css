@@ -1,0 +1,44 @@
+body {
+    background-color: #ddd;
+    font-family: Helvetica;
+}
+
+#main {
+    width: 80vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 3vh;
+    padding: 20px;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+.menuitemout {
+    float: right;
+}
+
+.menuitemin {
+    display: block;
+    color: #eee;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-decoration: none;
+}
+
+.menuitemin:hover {
+    background-color: #222;
+}
+
+#title{
+    text-decoration: none;
+	color: 111;
+}
