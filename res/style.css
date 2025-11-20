@@ -3,8 +3,12 @@ body {
     font-family: Helvetica;
 }
 
+p {
+	margin: 0;
+}
+
 #main {
-    width: 80vw;
+    width: 75vw;
     background-color: white;
     margin: auto;
     margin-top: 3vh;
@@ -41,4 +45,24 @@ body {
 #title{
     text-decoration: none;
 	color: 111;
+}
+
+#content {
+	margin: calc(1vh + 1vw);
+}
+
+#timeline {
+    display: grid;
+    grid-column-gap: 1.5vw;
+    grid-template-columns: 1fr 0.15fr 10fr;
+}
+
+.tl_date {
+    text-align: right;
+	margin-bottom: 2em;
+}
+
+.tl_stripe {
+    background: rgb(210 220 255);
+    position: relative;
 }
